@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wiechet-pretraindata_jd068"
+name = "wiechet-data_mix_curriculum_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别预训练数据工程师·训练数据配比与课程学习上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://wiechet.github.io"
-Repository = "https://github.com/wiechet/pretraindata_jd068"
-Issues = "https://github.com/wiechet/pretraindata_jd068/issues"
+Repository = "https://github.com/wiechet/data_mix_curriculum_distribution_profile"
+Issues = "https://github.com/wiechet/data_mix_curriculum_distribution_profile/issues"
 
 [project.scripts]
-pretraindata_jd068 = "pretraindata_jd068:main"
+data_mix_curriculum_distribution_profile = "data_mix_curriculum_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["pretraindata_jd068"]
+py-modules = ["data_mix_curriculum_distribution_profile"]
